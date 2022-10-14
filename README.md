@@ -1,15 +1,19 @@
 # Building a purchase planning process on the basis of forecasting visitor visiting the restaurant
-Aim:
-to predict the how many visitors, visit each restaurant Forecasting helps in effective planning for purchase of ingredients and scheduling of staffs
+
+#Aim:to predict the how many visitors, visit each restaurant Forecasting helps in effective planning for purchase of ingredients and scheduling of staffs
+
 Objective:
 focus on guest satisfaction, profitability, management on Staff scheduling, inventory management, menu analysis
+
 How data collected:
 We can collect the data from Yelp and Square API so data is generally in JSON format we are download the JSON file. Read the JSON file and perform the further operation around 10 GB data available so there is no need to find the restaurant visitor data.
 How much data (row/Column):
 600K rows and * 35 column
+
 Numeric feature was around 24 and categorical feature are around 11
 Total size of Data in MB and GB 
 1.2GB – 3.5GB
+
 Preprocessing steps are performed:
 - check properties: shape, info, isna.
 - data type format change: Time series data was object form so we change and convert date time format
@@ -19,6 +23,7 @@ Correlation:
 Some factors were multicollinear in which cases the dominant feature was take and non-dominant was dropped for example we create one new column the diff of visit date time and reserve date time drop the reserve date time
 EDA Exploratory Data analysis:
 Line plot, pie plot, Bar charts, heat maps, Box plot were plotted to know relationships between features
+
 What u found from this EDA:
 1.The feature correlation could be understood.
 2.90% restaurant having less than 47 visitors on each day.
