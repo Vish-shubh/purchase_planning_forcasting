@@ -1,6 +1,6 @@
 # Building a purchase planning process on the basis of forecasting visitor visiting the restaurant
 
-#Aim:to predict the how many visitors, visit each restaurant Forecasting helps in effective planning for purchase of ingredients and scheduling of staffs
+# Aim:to predict the how many visitors, visit each restaurant Forecasting helps in effective planning for purchase of ingredients and scheduling of staffs
 
 Objective:
 focus on guest satisfaction, profitability, management on Staff scheduling, inventory management, menu analysis
